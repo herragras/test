@@ -86,6 +86,9 @@ class App extends React.Component {
 
     return (
         <div className="container">
+            <nav class="navbar navbar-light bg-light justify-content-center">
+                <a class="navbar-brand" href="#"><h2>MY MOVIES</h2></a>
+            </nav>
             <div className="row">
                 <div className="col-lg-12">
                     <SearchBar searchMovieProp={this.searchMovie}/>
