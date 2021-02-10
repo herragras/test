@@ -87,7 +87,6 @@ class App extends React.Component {
     return (
         <div className="container">
             <div className="row">
-                <h1 className="border border-primary">MY MOVIES</h1>
                 <div className="col-lg-12">
                     <SearchBar searchMovieProp={this.searchMovie}/>
                 </div>
